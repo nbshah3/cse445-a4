@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  This XML file represents the Hotels directory. -->
+<Hotels xmlns="http://www.asu.edu/hotels"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.asu.edu/hotels https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO/Hotels.xsd">
+  <!-- Sample hotel entry matching the assignment sample -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Habor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <!-- Additional hotel entries -->
+  <Hotel Rating="4.5">
+    <Name>Marriott</Name>
+    <Phone>602-555-1234</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.0">
+    <Name>Hilton</Name>
+    <Phone>480-555-6789</Phone>
+    <Phone>480-555-6790</Phone>
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>200</Number>
+      <Street>Central Ave</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85301</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.8">
+    <Name>Hyatt</Name>
+    <Phone>480-555-1111</Phone>
+    <Address>
+      <Number>50</Number>
+      <Street>Broadway</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85701</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.3">
+    <Name>Sheraton</Name>
+    <Phone>602-555-2222</Phone>
+    <Phone>602-555-3333</Phone>
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>75</Number>
+      <Street>Elm St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.1">
+    <Name>Holiday Inn</Name>
+    <Phone>480-555-4444</Phone>
+    <Address>
+      <Number>123</Number>
+      <Street>Oak St</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85250</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.7">
+    <Name>Ritz-Carlton</Name>
+    <Phone>602-555-5555</Phone>
+    <Phone>602-555-6666</Phone>
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>10</Number>
+      <Street>Sunset Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.6">
+    <Name>Four Seasons</Name>
+    <Phone>480-555-7777</Phone>
+    <Address>
+      <Number>85</Number>
+      <Street>Maple Ave</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.2">
+    <Name>InterContinental</Name>
+    <Phone>602-555-8888</Phone>
+    <Phone>602-555-9999</Phone>
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>150</Number>
+      <Street>Palm Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.0">
+    <Name>Crowne Plaza</Name>
+    <Phone>480-555-0000</Phone>
+    <Address>
+      <Number>300</Number>
+      <Street>Lake View</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85301</Zip>
+    </Address>
+  </Hotel>
+</Hotels>

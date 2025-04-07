@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file intentionally contains errors for validation testing. -->
+<Hotel>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <!-- Error: Missing Phone element -->
+  <Hotel Rating="4.5">
+    <Name>Marriott</Name>
+    <Address>
+      <Number>100</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <!-- Error: Two Name elements -->
+  <Hotel Rating="4.0">
+    <Name>Hilton</Name>
+    <Name>Double Hilton</Name>
+    <Phone>480-555-6789</Phone>
+    <Phone>480-555-6790</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>200</Number>
+      <Street>Central Ave</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85301</Zip>
+    </Address>
+  </Hotel>
+  <!-- Error: Missing required Rating attribute -->
+  <Hotel>
+    <Name>Hyatt</Name>
+    <Phone>480-555-1111</Phone>
+    <Address>
+      <Number>50</Number>
+      <Street>Broadway</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85701</Zip>
+    </Address>
+  </Hotel>
+  <!-- Error: Unclosed Address element -->
+  <Hotel Rating="4.3">
+    <Name>Sheraton</Name>
+    <Phone>602-555-2222</Phone>
+    <Phone>602-555-3333</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>75</Number>
+      <Street>Elm St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    <!-- Missing closing tag for Address -->
+  </Hotel>
+</Hotel>
